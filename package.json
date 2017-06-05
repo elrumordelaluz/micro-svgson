@@ -1,0 +1,27 @@
+{
+  "name": "micro-svgson",
+  "version": "1.0.0",
+  "description": "Microservice for svgson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elrumordelaluz/micro-svgson.git"
+  },
+  "keywords": [
+    "svgson",
+    "svg",
+    "microservice"
+  ],
+  "author": "Lionel T <elrumordelaluz@hotmail.com> (https://elrumordelaluz.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elrumordelaluz/micro-svgson/issues"
+  },
+  "homepage": "https://github.com/elrumordelaluz/micro-svgson#readme",
+  "dependencies": {
+    "micro": "7.3.3"
+  }
+}
