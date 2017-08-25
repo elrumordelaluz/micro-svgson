@@ -1,11 +1,8 @@
-const { send } = require('micro')
-const cors = require('micro-cors')()
-const parse = require('urlencoded-body-parser')
+const {json} = require('micro')
 
-const handler = async (req, res) => {
-  const data = await parse(req)
-  
-  send(res, 200)
+module.exports = async function (req, res) {
+  const data = await json(req)
+  console.log(data)
+
+  return 'Data logged to your console'
 }
-
-module.exports = cors(handler)
