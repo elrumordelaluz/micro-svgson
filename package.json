@@ -4,7 +4,8 @@
   "description": "Microservice for svgson",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon node_modules/.bin/micro"
+    "start": "micro",
+    "dev": "micro-dev"
   },
   "repository": {
     "type": "git",
@@ -22,11 +23,11 @@
   },
   "homepage": "https://github.com/elrumordelaluz/micro-svgson#readme",
   "dependencies": {
-    "micro": "7.3.3",
+    "micro": "8.0.3",
     "micro-cors": "0.0.4",
     "urlencoded-body-parser": "2.0.1"
   },
   "devDependencies": {
-    "nodemon": "1.11.0"
+    "micro-dev": "1.2.1"
   }
 }
