@@ -25,9 +25,10 @@
   "dependencies": {
     "micro": "8.0.3",
     "micro-cors": "0.0.4",
+    "svgson-next": "^0.0.2-development",
     "urlencoded-body-parser": "2.0.1"
   },
   "devDependencies": {
-    "micro-dev": "1.2.1"
+    "micro-dev": "1.2.2"
   }
 }

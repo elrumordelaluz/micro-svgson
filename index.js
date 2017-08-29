@@ -1,8 +1,36 @@
-const {json} = require('micro')
+const { json } = require('micro')
+const svgson = require('svgson-next').default
 
-module.exports = async function (req, res) {
+module.exports = async function(req, res) {
   const data = await json(req)
-  console.log(data)
+  const {
+    svg,
+    optimize,
+    svgoConfig = {
+      plugins: [
+        { removeStyleElement: true },
+        {
+          removeAttrs: {
+            attrs: '(stroke-width|stroke-linecap|stroke-linejoin|)',
+          },
+        },
+      ],
+      multipass: true,
+    },
+    pathsKey = '',
+    customAttrs = null,
+    compat = false,
+    camelcase = false,
+  } = data
 
-  return 'Data logged to your console'
+  const output = await svgson(svg, {
+    optimize,
+    svgoConfig,
+    pathsKey,
+    customAttrs,
+    compat,
+    camelcase,
+  })
+
+  return output
 }
