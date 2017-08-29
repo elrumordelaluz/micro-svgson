@@ -1,5 +1,6 @@
 const { json } = require('micro')
 const svgson = require('svgson-next').default
+console.log(svgson);
 
 module.exports = async function(req, res) {
   const data = await json(req)
