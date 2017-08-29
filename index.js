@@ -1,8 +1,8 @@
 const { json } = require('micro')
+const cors = require('micro-cors')()
 const svgson = require('svgson-next').default
-console.log(svgson);
 
-module.exports = async function(req, res) {
+const handler = async function(req, res) {
   const data = await json(req)
   const {
     svg,
@@ -35,3 +35,5 @@ module.exports = async function(req, res) {
 
   return output
 }
+
+module.exports = cors(handler)

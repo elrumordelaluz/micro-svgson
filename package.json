@@ -23,6 +23,7 @@
   "homepage": "https://github.com/elrumordelaluz/micro-svgson#readme",
   "dependencies": {
     "micro": "8.0.3",
+    "micro-cors": "^0.0.4",
     "svgson-next": "2.0.1"
   },
   "devDependencies": {
