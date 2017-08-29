@@ -416,16 +416,9 @@ domutils@1.1:
   dependencies:
     domelementtype "1"
 
-domutils@1.5.1:
+domutils@1.5.1, domutils@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/domutils/-/domutils-1.5.1.tgz#dcd8488a26f563d61079e48c9f7b7e32373682cf"
-  dependencies:
-    dom-serializer "0"
-    domelementtype "1"
-
-domutils@^1.5.1:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/domutils/-/domutils-1.6.2.tgz#1958cc0b4c9426e9ed367fb1c8e854891b0fa3ff"
   dependencies:
     dom-serializer "0"
     domelementtype "1"
@@ -1652,9 +1645,9 @@ svgo@0.7.2:
     sax "~1.2.1"
     whet.extend "~0.9.9"
 
-svgson-next@^0.0.2-development:
-  version "0.0.2-development"
-  resolved "https://registry.yarnpkg.com/svgson-next/-/svgson-next-0.0.2-development.tgz#caacab187fcba011be9faf0b8af210ebceab7068"
+svgson-next@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/svgson-next/-/svgson-next-2.0.1.tgz#4249acac47cba78cb7800aef20b7e988f5d314c5"
   dependencies:
     clean-deep "^3.0.1"
     deep-rename-keys "^0.2.1"
