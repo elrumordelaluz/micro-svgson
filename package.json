@@ -4,7 +4,7 @@
   "description": "Microservice for svgson",
   "scripts": {
     "start": "micro",
-    "dev": "micro-dev"
+    "dev": "micro-dev -p 30100"
   },
   "repository": {
     "type": "git",
