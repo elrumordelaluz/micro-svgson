@@ -228,10 +228,9 @@ clap@^1.0.9:
     chalk "^1.1.3"
 
 clean-deep@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/clean-deep/-/clean-deep-3.0.1.tgz#263075d74647e93d64006698cdd2c02c0100af9e"
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/clean-deep/-/clean-deep-3.0.2.tgz#1b7096822f289cc491ca6d85af5c028cbb22fc23"
   dependencies:
-    lodash.isarray "^4.0.0"
     lodash.isempty "^4.4.0"
     lodash.isplainobject "^4.0.6"
     lodash.transform "^4.6.0"
@@ -958,10 +957,6 @@ lodash.assign@^4.0.3, lodash.assign@^4.0.6:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/lodash.assign/-/lodash.assign-4.2.0.tgz#0d99f3ccd7a6d261d19bdaeb9245005d285808e7"
 
-lodash.isarray@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/lodash.isarray/-/lodash.isarray-4.0.0.tgz#2aca496b28c4ca6d726715313590c02e6ea34403"
-
 lodash.isempty@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.isempty/-/lodash.isempty-4.4.0.tgz#6f86cbedd8be4ec987be9aaf33c9684db1b31e7e"
@@ -1641,7 +1636,7 @@ svgo@0.7.2:
     sax "~1.2.1"
     whet.extend "~0.9.9"
 
-svgson-next@2.0.1:
+svgson-next@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/svgson-next/-/svgson-next-2.0.1.tgz#4249acac47cba78cb7800aef20b7e988f5d314c5"
   dependencies:
