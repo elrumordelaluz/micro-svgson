@@ -12,7 +12,8 @@ const handler = async function(req, res) {
         { removeStyleElement: true },
         {
           removeAttrs: {
-            attrs: '(stroke-width|stroke-linecap|stroke-linejoin|width|height|class)',
+            attrs:
+              '(stroke-width|stroke-linecap|stroke-linejoin|width|height|class|data.*)',
           },
         },
       ],
